@@ -169,7 +169,7 @@ function renderContent(c) {
     }
 
     if (Array.isArray(c.hero.cards) && c.hero.cards.length) {
-      c.hero.cards.slice(0, 2).forEach((card, i) => {
+      c.hero.cards.slice(0, 1).forEach((card, i) => {
         const n = i + 1;
         setText(`heroCard${n}Icon`, card.icon);
         setText(`heroCard${n}Title`, card.title);
